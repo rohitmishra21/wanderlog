@@ -7,3 +7,5 @@ export const navItem = [
 export const Logo = "https://wanderlog.com/assets/logoWithText.png"
 
 export const MapVidio = "https://itin-marketing.sfo2.cdn.digitaloceanspaces.com/20240918-webflow-homepage-hero-section-video-desktop.mp4"
+
+export const PRODUCT_API = "https://dummyjson.com/products"
