@@ -8,7 +8,7 @@ const linkClasses = "font-semibold mx-5";
 
 const Navbar = () => {
     return (
-        <div className="flex pt-4 pb-2 items-center border-b border-b-[#dee2e6] px-8 md:px-28 justify-between">
+        <div className="flex pt-4 pb-2 items-center border-b border-b-[#dee2e6]  px-8 justify-between">
             <div className="flex items-center">
                 <img src={Logo} width={160} alt="" />
                 {navItem.map((item) => (
