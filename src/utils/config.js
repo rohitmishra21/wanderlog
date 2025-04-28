@@ -11,7 +11,8 @@ import { FaBook } from "react-icons/fa";
 import { FaCircleCheck } from "react-icons/fa6";
 import { IoNewspaperOutline } from "react-icons/io5";
 import { TfiMenuAlt } from "react-icons/tfi";
-
+import { MdMarkEmailRead } from "react-icons/md";
+import { MdFlight } from "react-icons/md";
 
 export const Logo = "https://wanderlog.com/assets/logoWithText.png"
 
@@ -245,5 +246,150 @@ export const TravelData = [
         title: "Pack and budget efficiently",
         description: "Keep track of your budget and split costs with your trip mates. View expense breakdowns. Use our preset packing lists or create your own. Customize to-do lists, shopping lists, and more to ensure you bring everything you need on your trip.",
         img: 'https://wanderlog.com/p/images/66eab414d97fb50282c502c6_Pack%20and%20budget%20efficiently.jpg'
+    }
+];
+
+
+export const ProFeaturesData = [
+    {
+        id: 1,
+        title: "Live flight updates",
+        description: "Get notified and monitor your flight status to ensure a smooth travel experience.",
+        icon: MdFlight,
+    },
+    {
+        id: 2,
+        title: "Offline access",
+        description: "No wifi, no problem. Your trip plans are locally downloaded for access anywhere.",
+        icon: CiWifiOff,
+    },
+    {
+        id: 3,
+        title: "Automatic Gmail scanning",
+        description: "Get your travel reservations automatically synced into your trip plan.",
+        icon: MdMarkEmailRead,
+    },
+    {
+        id: 4,
+        title: "Optimize your route",
+        description: "Perfect for road trips and saving $$$ on gas! Get the best route auto-rearranged.",
+        icon: FaRoute,
+    },
+    {
+        id: 5,
+        title: "Flight deals",
+        description: "Cheap flight deals sent straight to your inbox so you can plan your next best trip.",
+        icon: FaDollarSign,
+    },
+    {
+        id: 6,
+        title: "Unlimited attachments",
+        description: "Never dig through your emails again — access all your trip files and PDFs in one place.",
+        icon: FaBook,
+    },
+    {
+        id: 7,
+        title: "Export to Google Maps",
+        description: "Get your places exported to Google Maps. Auto-updated when your plans change.",
+        icon: FaMapMarkedAlt,
+    }
+];
+
+
+export const placesData = [
+    {
+        id: 1,
+        title: "Paris",
+        text: "Eiffel Tower · Louvre Museum · Notre-Dame Cathedral",
+        img: "https://wanderlog.com/p/images/66e9a04a24043fa9fcd9a0cd_66bd2d63d57b940bc1b11e26_img%20paris_explore_places.jpg",
+        size: "small"
+    },
+    {
+        id: 2,
+        title: "Tokyo",
+        text: "Tokyo Tower · Senso-ji Temple · Shibuya Crossing",
+        img: "https://wanderlog.com/p/images/66e9a04af169a54a82164ea9_66bd2d63b74cc52cdd91b284_img%20tokyo_explore_places.jpg",
+        size: "small"
+    },
+    {
+        id: 3,
+        title: "New York",
+        img: "https://wanderlog.com/p/images/66bd2d63742b1e62cbc01b6b_img%20rome_explore_places.jpg",
+        text: "Statue of Liberty · Central Park · Times Square",
+
+        size: "small"
+    },
+    {
+        id: 4,
+        title: "Bangkok",
+        text: "Grand Palace · Wat Arun · Chatuchak Weekend Market",
+        img: "https://wanderlog.com/p/images/66e9a04a0e88014cfb53cc86_66bd2d6330902c203b566dcb_img%20bangkok_explore_places.jpg",
+        size: "small"
+    },
+    {
+        id: 5,
+        title: "Dubai",
+        img: "https://wanderlog.com/p/images/66e9a04afc78245ffa4ab328_66bd2d63bbd996cefa85f70f_img%20new%20york_explore_places.jpg",
+        text: "Burj Khalifa · Dubai Mall · Palm Jumeirah",
+
+        size: "large"
+    },
+    {
+        id: 6,
+        title: "London",
+        text: "Tower of London · British Museum · Buckingham Palace",
+        img: "https://wanderlog.com/p/images/66e9a04af0bdf1869bff2bf1_66bd2d63cf351730d7fbf12e_img%20london_explore_places.jpg",
+        size: "large"
+    },
+    {
+        id: 7,
+        title: "Rome",
+        text: "Colosseum · Vatican City · Pantheon",
+        img: "https://wanderlog.com/p/images/66e9a04a67b1bd2da3f41ce8_66bd2d6384f6fc053a362fa3_img%20dubai_explore_places.jpg",
+        size: "small"
+    }
+];
+
+
+export const AdeventureData = [
+    {
+        id: 1,
+        title: "Paris 5 Day Tourist Itinerary + Recommendations",
+        description: "I've studied abroad in Paris. Other than that, I've visited Paris another 6 times, and have driven all around France.",
+        userName: "Elisa Li",
+        likes: "105,590",
+        comments: "514",
+        cardImg: "https://wanderlog.com/p/images/66e9a04b12eff2465ee26c6c_66bbe65734970d8da04a6468_img_travel_guides.jpg",
+        userImg: "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+        id: 2,
+        title: "Japan: Video Game Guide 👾",
+        description: "Did a summer internship in Japan during 2019. Stayed in Shinagawa City, Tokyo for 3 months. Traveled around Japan in my free time! This guide contains all of the places I've personally been to and loved in a quest-like fashion 🎮",
+        userName: "Tuyet",
+        likes: "36,112",
+        comments: "691",
+        cardImg: "https://wanderlog.com/p/images/66e9a04a2d57a8046e287ffb_66bbe6563c49bb165c537c48_img_travel_guides-1.jpg", // Tokyo gaming
+        userImg: "https://randomuser.me/api/portraits/women/65.jpg"
+    },
+    {
+        id: 3,
+        title: "Puerto Rico Guide",
+        description: "This is a collection of 'best of' since I moved to the island at the beginning of 2019. Activities/sights, restaurants/bars, shopping, and places to stay in San Jan each have their own section. Other regions each get a single section that combines all of the above.",
+        userName: "Gillian Morris",
+        likes: "28,075",
+        comments: "142",
+        cardImg: "https://wanderlog.com/p/images/66e9a04a66c87835389f0656_66bbe65646c77a59e4cd2766_img_travel_guides-2.jpg", // Puerto Rico
+        userImg: "https://randomuser.me/api/portraits/women/68.jpg"
+    },
+    {
+        id: 4,
+        title: "Boston Walking Tour",
+        description: "I lived in the area for 2 years during grad school and love how walkable the city is (...as long as you avoid November - March). I've discovered all sorts of walking routes, especially during COVID, and wanted to share some of my favorites!",
+        userName: "DX",
+        likes: "6,488",
+        comments: "91",
+        cardImg: "https://wanderlog.com/p/images/66bbe6567bd929243d8b0886_img_travel_guides-3.jpg", // Boston
+        userImg: "https://randomuser.me/api/portraits/men/36.jpg"
     }
 ];
