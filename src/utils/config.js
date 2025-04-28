@@ -1,17 +1,36 @@
 
-export const navItem = [
-    { id: 1, name: "Home", path: "/" },
-    { id: 2, name: "About", path: "/about" },
-    { id: 3, name: "Contact", path: "/contact" }
-];
+import { FaUsers } from "react-icons/fa6";
+import { FaFighterJet } from "react-icons/fa";
+import { FaRobot } from "react-icons/fa";
+import { FaRoute } from "react-icons/fa";
+import { CiWifiOff } from "react-icons/ci";
+import { MdLocalHotel } from "react-icons/md";
+import { FaMapMarkedAlt } from "react-icons/fa";
+import { FaDollarSign } from "react-icons/fa6";
+import { FaBook } from "react-icons/fa";
+import { FaCircleCheck } from "react-icons/fa6";
+import { IoNewspaperOutline } from "react-icons/io5";
+import { TfiMenuAlt } from "react-icons/tfi";
+
 
 export const Logo = "https://wanderlog.com/assets/logoWithText.png"
+
+export const APP_STORE_IMG = "https://wanderlog.com/p/images/66c68f9179c6f1612bb7da3c_AppBadge__ios.png"
+
+export const GOOGLE_STORE_IMG = "https://wanderlog.com/p/images/66c68f8ea4bdfd11923ba065_AppBadge__android.png"
 
 export const MapVidio = "https://itin-marketing.sfo2.cdn.digitaloceanspaces.com/20240918-webflow-homepage-hero-section-video-desktop.mp4"
 
 export const PRODUCT_API = "https://dummyjson.com/products"
 
+export const PHONE_IMG = "https://wanderlog.com/p/images/674509d05d3d951f2d223635_illustration.png"
 
+
+export const navItem = [
+    { id: 1, name: "Home", path: "/" },
+    { id: 2, name: "About", path: "/about" },
+    { id: 3, name: "Contact", path: "/contact" }
+];
 export const ReplaceCardData = [
 
     {
@@ -127,4 +146,104 @@ export const STARS_DATA = [
         description: "Highly rated and selected as Editor’s Choice on Google Play.",
         icon: true
     },
+];
+
+
+export const Collaborate_DATA_ARR = [
+    {
+        iconName: "Map view",
+        ImgSrc: "https://wanderlog.com/p/images/66e9a04ade5f5cc70d42fa73_66be18abfa0877a71e295918_route_optimizationfeature_tab-p-3200-p-2000.jpeg",
+        icon: FaMapMarkedAlt
+    },
+    {
+        iconName: "Itinerary",
+        ImgSrc: "https://wanderlog.com/p/images/66eb305ad906ce7110b7274e_itinerary.png",
+        icon: TfiMenuAlt
+    },
+    {
+        iconName: "Offline access",
+        ImgSrc: "https://wanderlog.com/p/images/66eb30bb24bf76bff57ef62b_offline_accessfeature_tab.png",
+        icon: CiWifiOff
+    },
+    {
+        iconName: "Reservation",
+        ImgSrc: "https://wanderlog.com/p/images/66be18fbf3dcc4214fdc4c9f_reservationsfeature_tab-p-2000.jpeg",
+        icon: IoNewspaperOutline
+    },
+    {
+        iconName: "Lodging",
+        ImgSrc: "https://wanderlog.com/p/images/66e9a04aa4ddbd72e0290bf8_66be18ab77fc966cb54194ec_lodgingfeature_tab-p-3200.jpeg",
+        icon: MdLocalHotel
+    },
+    {
+        iconName: "Packing checklists",
+        ImgSrc: "https://wanderlog.com/p/images/66be18abba01fda40ffa5ce3_packing_checklistfeature_tab-p-2000.jpeg",
+        icon: FaCircleCheck
+
+    },
+    {
+        iconName: "Route Optimization",
+        ImgSrc: "https://wanderlog.com/p/images/66e9a04ade5f5cc70d42fa73_66be18abfa0877a71e295918_route_optimizationfeature_tab-p-3200-p-2000.jpeg",
+        icon: FaRoute
+
+    },
+    {
+        iconName: "travel guides",
+        ImgSrc: "https://wanderlog.com/p/images/66e9a04adc4385c4ad47c75c_66be18ab9db4c553978a88ba_travel_guidesfeature_tab.jpeg",
+        icon: FaBook
+    },
+    {
+        iconName: "Budgeting",
+        ImgSrc: "https://wanderlog.com/p/images/66be18ab77ef3045dd0dd461_budgetingfeature_tab-p-2000.jpeg",
+        icon: FaDollarSign
+    },
+    {
+        iconName: "Collaboration",
+        ImgSrc: "https://wanderlog.com/p/images/66be18ab4556493346699085_collaborationfeature_tab-p-2000.jpeg",
+        icon: FaUsers
+    },
+    {
+        iconName: "Flight Status",
+        ImgSrc: "https://wanderlog.com/p/images/66be18ab4556493346699085_collaborationfeature_tab-p-2000.jpeg",
+        icon: FaFighterJet
+    },
+    {
+        iconName: "AI Assistant",
+        ImgSrc: "https://wanderlog.com/p/images/66eb304ff4dd4adce3ce9e29_ai_assistantfeature_tab%20(1).png",
+        icon: FaRobot
+    },
+
+]
+
+export const TravelData = [
+    {
+        id: 1,
+        title: "Create a trip itinerary",
+        description: "Add the attractions you want to visit and see how to go between them on a map. Check distances and travel times between locations and attractions, schedule specific times for your visits, and optimize your route so you can make the most of your trip. See your flights and hotels for the day to keep track of what’s coming up.",
+        img: 'https://wanderlog.com/p/images/66eab414dccdbe46917f752e_Create%20a%20trip%20itinerary%20to%20see%20everything%20in%20one%20place-1.jpg'
+    },
+    {
+        id: 2,
+        title: "See top attractions and restaurants",
+        description: "Get recommended the top places to visit and the best restaurants. Get ratings for top attractions, check their opening hours, and access links to official websites. We’ve gathered the top attractions from across the web in one place so you can see what are the consensus picks.",
+        img: 'https://wanderlog.com/p/images/66eab414a29fd1de743a66a0_See%20top%20attractions%20and%20restaurants%20from%20the%20entire%20web.jpg'
+    },
+    {
+        id: 3,
+        title: "Plan road trips and hit the road",
+        description: "Create a detailed itinerary for your road trip. Add all your stops, check distances and time between each location. See lists of best stops on your route between cities. We optimize your route to save gas and ensure a smooth journey.",
+        img: 'https://wanderlog.com/p/images/66eab414ce29e80afaca10ea_Hit%20the%20road.jpg'
+    },
+    {
+        id: 4,
+        title: "Manage your reservations with ease",
+        description: "See your reservations, attachments, and confirmation emails in one place without having to search for them. Forward your reservation emails directly to Wanderlog. Prefer it automatic? Connect your Gmail to automatically scan and import your hotel, flight, and other reservation details. We organize all your bookings in one place.",
+        img: 'https://wanderlog.com/p/images/66e9a04ac869765c46fcc981_66c65e6380394646277b71c4_Manage%20your%20reservations%20%20with%20ease_regular_feature_section.jpg'
+    },
+    {
+        id: 5,
+        title: "Pack and budget efficiently",
+        description: "Keep track of your budget and split costs with your trip mates. View expense breakdowns. Use our preset packing lists or create your own. Customize to-do lists, shopping lists, and more to ensure you bring everything you need on your trip.",
+        img: 'https://wanderlog.com/p/images/66eab414d97fb50282c502c6_Pack%20and%20budget%20efficiently.jpg'
+    }
 ];

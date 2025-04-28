@@ -4,7 +4,7 @@ import ProductCard from './ProductCard';
 
 const MasonaryGrid = () => {
     const data = useFetchData()
-    console.log(data);
+
 
     return (
         <div className=' my-20 columns-4'>

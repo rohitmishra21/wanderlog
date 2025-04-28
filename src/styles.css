@@ -7,12 +7,7 @@ body {
   height: 100%;
 }
 
-body {
 
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-}
 
 .swiper {
   width: 100%;
@@ -20,9 +15,12 @@ body {
 }
 
 .swiper-slide {
+ 
   font-size: 18px;
   background: #fff;
-  height: 500px;  
-  
 }
 
+.swiper-slide img {
+  
+  object-fit: cover;
+}
