@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import FeaturesSection from './components/FeaturesSection'
 import ReplaceFeature from './components/ReplaceFeature'
 import RecomendedSection from './components/RecomendedSection'
+import JoinSection from './components/JoinSection'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <FeaturesSection />
       <ReplaceFeature />
       <RecomendedSection />
+      <JoinSection />
     </div>
   )
 }
