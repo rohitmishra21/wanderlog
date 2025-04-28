@@ -10,6 +10,9 @@ import TripPlanner from './components/TripPlanner'
 import ProFeatures from './components/ProFeatures'
 import ExploreDestinations from './components/ExploreDestinations'
 import AdventureFeed from './components/AdventureFeed'
+import ItineraryIntro from './components/ItineraryIntro'
+import ComboBtn from './components/ComboBtn'
+import GoogleBtn from './components/GoogleBtn'
 
 const App = () => {
   return (
@@ -19,12 +22,14 @@ const App = () => {
       <FeaturesSection />
       <ReplaceFeature />
       <RecomendedSection />
-      <JoinSection />
+      <JoinSection btn={<GoogleBtn />} />
       <Collaborate />
       <TripPlanner />
       <ProFeatures />
       <ExploreDestinations />
       <AdventureFeed />
+      <ItineraryIntro />
+      <JoinSection btn={<ComboBtn />} />
     </div>
   )
 }
