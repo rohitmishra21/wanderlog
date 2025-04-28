@@ -3,7 +3,7 @@ import { APP_STORE_IMG, GOOGLE_STORE_IMG, PHONE_IMG } from '../utils/config'
 
 const JoinSection = ({ btn }) => {
     return (
-        <div className='h-screen py-32 flex'>
+        <div className='h-screen  md:px-40 py-32 flex'>
             <div className='w-1/2 h-full'>
                 <img src={PHONE_IMG} className='w-[80%] border border-[#dee2e6] rounded-xl object-cover' alt="" />
             </div>

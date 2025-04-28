@@ -7,7 +7,7 @@ const MasonaryGrid = () => {
 
 
     return (
-        <div className=' my-20 columns-4'>
+        <div className=' my-20 md:columns-4'>
             {data && data.map((item) => (
                 <ProductCard key={item?.id} item={item} />
             ))}

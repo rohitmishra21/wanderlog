@@ -3,13 +3,13 @@ import PopularPlacesCard from './PopularPlacesCard'
 import { placesData } from '../utils/config'
 const ExploreDestinations = () => {
     return (
-        <div className='min-h-screen px-5'>
+        <div className='min-h-screen md:px-32 px-5'>
             <div className='text-3xl font-bold text-center py-20'>
                 <h1>Explore hundreds of places to visit
                     <br />    for every corner of the world</h1>
             </div>
 
-            <div className="flex flex-wrap gap-5 justify-between">
+            <div className="flex md:flex-row flex-col flex-wrap gap-5 justify-between">
                 {placesData.map((place, index) => (
                     <div
                         key={index}

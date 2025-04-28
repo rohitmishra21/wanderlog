@@ -42,7 +42,7 @@ const ColloborateSlider = () => {
                 />
             </div>
 
-            <div className="py-40">
+            <div className="md:py-10">
                 <ComboBtn />
             </div>
         </>

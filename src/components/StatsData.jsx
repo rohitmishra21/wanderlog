@@ -10,8 +10,8 @@ const StatsData = () => {
                         <h1 className=' text-5xl'>  {data.title}</h1>
                         <h1 className='text-xl'> {data.icon && <IoStar />}</h1>
                     </div>
-                    <p className='mb-3 font-bold'>{data.subtitle}</p>
-                    <p>{data.description}</p>
+                    <p className='mb-3 py-2 font-bold'>{data.subtitle}</p>
+                    <p className='px-4 font-semibold text-gray-600 '>{data.description}</p>
                 </div>
             ))}
         </div>

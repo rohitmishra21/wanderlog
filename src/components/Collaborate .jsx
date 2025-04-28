@@ -2,7 +2,7 @@ import React from 'react'
 import ColloborateSlider from './ColloborateSlider';
 const Collaborate = () => {
     return (
-        <div>
+        <div className='md:px-52'>
             <ColloborateSlider />
         </div>
     )

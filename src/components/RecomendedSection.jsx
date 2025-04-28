@@ -8,10 +8,10 @@ const RecomendedSection = () => {
         <div className='bg-[#EBEDFC] py-16'>
             <Heading bigHead={"Recommended by the press"} subHead={"Leading companies and media outlets are talking about Wanderlog. Discover why we re their top choice for travel planning."} />
 
-            <div className=''>
+            <div className=' md:px-52'>
                 <Slide />
             </div>
-            <div>
+            <div className=' md:px-52'>
                 <StatsData />
             </div>
         </div>

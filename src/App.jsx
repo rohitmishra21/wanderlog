@@ -16,7 +16,7 @@ import GoogleBtn from './components/GoogleBtn'
 
 const App = () => {
   return (
-    <div className='md:px-28  '>
+    <div className=' '>
       <Navbar />
       <HeroSection />
       <FeaturesSection />

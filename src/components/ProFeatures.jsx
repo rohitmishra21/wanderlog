@@ -3,7 +3,7 @@ import { ProFeaturesData } from '../utils/config'
 
 const ProFeatures = () => {
     return (
-        <div className='flex flex-wrap gap-4 '>
+        <div className='flex md:px-36 flex-wrap gap-4 '>
             {ProFeaturesData.map((data) => (
                 <div className='bg-[#F3F4F5] rounded-xl w-96 p-5' key={data.id}>
                     <h1 className='text-3xl font-bold'><data.icon /></h1>

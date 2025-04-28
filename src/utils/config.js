@@ -104,7 +104,7 @@ export const SLIDECARD_DATA = [
     },
     {
         id: 5,
-        source: "https://wanderlog.com/p/images/66c785077d7434c8d533fbe3_Thrillist_spotlight_on_wanderlog.jpg",
+        source: "https://wanderlog.com/p/images/66c785076820b438850aa3fc_Union_spotlight_on_wanderlog.jpg",
         author: "Charlotte Davey",
         quote: "One of the best travel apps for planning every kind of trip, including road trips and group travel: create a trip itinerary, budget costs, organise flights and hotel reservations, and collaborate with friends. After your trip, share a travel guide to inspire other travellers.",
         link: "@CN Traveler"

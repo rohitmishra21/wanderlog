@@ -5,7 +5,7 @@ const TripPlanner = () => {
     return (
         <div>
             {TravelData.map((data) => (
-                <div key={data.id} className='h-screen justify-center items-center  flex'>
+                <div key={data.id} className='h-screen justify-center items-center md:flex-row flex-col flex'>
                     <div className='w-1/2'>
                         <img className='w-[80%] object-cover' src={data?.img} alt="" />
                     </div>
