@@ -13,6 +13,8 @@ import AdventureFeed from './components/AdventureFeed'
 import ItineraryIntro from './components/ItineraryIntro'
 import ComboBtn from './components/ComboBtn'
 import GoogleBtn from './components/GoogleBtn'
+import SubFooter from './components/SubFooter'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -30,6 +32,8 @@ const App = () => {
       <AdventureFeed />
       <ItineraryIntro />
       <JoinSection btn={<ComboBtn />} />
+      <SubFooter />
+      <Footer />
     </div>
   )
 }
