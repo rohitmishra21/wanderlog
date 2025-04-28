@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import FeaturesSection from './components/FeaturesSection'
+import ReplaceFeature from './components/ReplaceFeature'
+import RecomendedSection from './components/RecomendedSection'
 
 const App = () => {
   return (
@@ -9,6 +11,8 @@ const App = () => {
       <Navbar />
       <HeroSection />
       <FeaturesSection />
+      <ReplaceFeature />
+      <RecomendedSection />
     </div>
   )
 }

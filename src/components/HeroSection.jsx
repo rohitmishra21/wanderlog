@@ -1,8 +1,6 @@
 import React from 'react';
-import Button from './Button';
-import { Link } from 'react-router-dom';
-import { FaArrowRight } from "react-icons/fa";
 import VideoContainer from './VideoContainer';
+import ComboBtn from './ComboBtn';
 
 const HeroSection = () => {
     return (
@@ -14,16 +12,7 @@ const HeroSection = () => {
                     <br />
                     bookings seamlessly — all in one place.
                 </h3>
-                <div className="flex items-center">
-                    <Button text="Start planning" />
-                    <Link
-                        to="/get-app"
-                        className="flex items-center font-semibold ml-5 hover:text-blue-800 transition-all duration-300"
-                    >
-                        Get the app
-                        <FaArrowRight className="ml-2" />
-                    </Link>
-                </div>
+                <ComboBtn />
             </div>
 
             <div>
